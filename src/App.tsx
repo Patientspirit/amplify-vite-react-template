@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import type { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
-import React from "react";
+//import React from "react";
 import { Authenticator } from '@aws-amplify/ui-react'
 import '@aws-amplify/ui-react/styles.css'
 
@@ -49,7 +49,7 @@ function App() {
   )}
   </Authenticator>
   )
-  
+
 }
 
 export default App;
